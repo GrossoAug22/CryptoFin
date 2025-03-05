@@ -252,44 +252,113 @@
             perferendis aperiam delectus ad eligendi architecto suscipit,
             sapiente, illo incidunt nesciunt aliquid quidem culpa.
           </p>
-          <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modalCrearCuenta">Crea tu cuenta ahora</button>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#modalCrearCuenta"
+          >
+            Crea tu cuenta ahora
+          </button>
         </div>
       </section>
+      <section class="container">
+        <article class="row">
+          <article class="col-12 col-md-6 col-lg-6">
+            <img
+              src="./img/iphone-illustration-sec.png"
+              alt="img-smartphone"
+              class="w-25"
+            />
+            <article class="col-12 col-md-6 col-lg-6">
+              <div>
+                <h3>Tu Seguridad Como Prioridad</h3>
+              </div>
+            </article>
+          </article>
+        </article>
+      </section>
     </main>
-<!-- Modal crea tu cuenta-->
-<section class="modal fade" id="modalCrearCuenta" tabindex="-1" aria-labelledby="modalCrearCuentaLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2 class="modal-title fs-5" id="modalCrearCuentaLabel">Crea tu cuenta</h2>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Completa los siguientes datos para crear una cuenta:</p>
-        <form>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <!-- Modal crea tu cuenta-->
+    <section
+      class="modal fade"
+      id="modalCrearCuenta"
+      tabindex="-1"
+      aria-labelledby="modalCrearCuentaLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5" id="modalCrearCuentaLabel">
+              Crea tu cuenta
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+          <div class="modal-body">
+            <p>Completa los siguientes datos para crear una cuenta:</p>
+            <form>
+              <div class="mb-3">
+                <label for="InputName1" class="form-label"
+                  >Nombre Completo</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="InputName1"
+                  aria-describedby="emailHelp"
+                  required
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="InputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="InputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="InputPassword1" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="InputPassword1"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</section>
-
+    </section>
 
     <footer class="bg-dark-subtle py-3">
       <div class="container">
